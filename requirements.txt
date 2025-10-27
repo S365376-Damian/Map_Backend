@@ -1,6 +1,18 @@
+# Django REST Framework & JWT
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
-drf-yasg==1.21.7
-PyYAML==6.0
+drf-yasg==1.21.8
+
+# Utilities
+python-dotenv==1.0.1
 uritemplate==4.1.1
-python-dotenv==1.1.1
+
+# PostgreSQL driver (new psycopg3 works better with Python 3.13)
+psycopg[binary]==3.2.3
+
+# Build dependencies
+Cython==3.0.11
+wheel
+
+# Production server
+gunicorn==23.0.0
